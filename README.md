@@ -9,14 +9,15 @@ This example will show how to control a servo, which is a fine-tuned motor which
 Install instructions are:
 1) sudo apt install swig python-dev python3-dev
 2) sudo apt install python-setuptools python3-setuptools
-3) wget http://abyz.me.uk/lg/lg.zip
-4) unzip lg.zip
-5) cd lg
-6) make
-7) sudo make install
-8) Open and compile the LibGPIODServo program and copy the program and libraries to the RaspberryPi Desktop
-9) give the executable permission to run with something like: 'sudo chmod +x LibGPIODServo
-10) run the program with something like: 'sudo ./LibGPIODServo
+3) sudo apt install libunwind8
+4) wget http://abyz.me.uk/lg/lg.zip
+5) unzip lg.zip
+6) cd lg
+7) make
+8) sudo make install
+9) Open and compile the LibGPIODServo program and copy the program and libraries to the RaspberryPi Desktop
+10) give the executable permission to run with something like: 'sudo chmod +x LibGPIODServo
+11) run the program with something like: 'sudo ./LibGPIODServo
 
 
 Here is the breadboard layout for the servo.
